@@ -169,25 +169,32 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 200px;
+    width: 100%;
     height: 99px;
     justify-content: center;
   }
   .contador__title {
     font-size: 20px;
     line-height: 26px;
+    margin: 0 auto;
   }
   .contador__label {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 10px;
+    line-height: 12px;
   }
   .contador__number {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 20px;
   }
   .contador__button {
     width: 100px;
     margin-top: 15px;
+  }
+  .number {
+    justify-content: center;
+  }
+  .contador__subtitle {
+    text-align: center;
   }
 }
 
